@@ -28,7 +28,7 @@ async function getJSON(url) {
 
 		return data;
 	} catch (error) {
-		console.error(error);
+		renderError(error);
 	}
 }
 
